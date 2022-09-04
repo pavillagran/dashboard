@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "Proyecto dashboard en JS, con conexión a una API test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavillagran/dashboard.git"
+  },
+  "keywords": [],
+  "author": "pablo villagran placencia",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pavillagran/dashboard/issues"
+  },
+  "homepage": "https://github.com/pavillagran/dashboard#readme",
+  "dependencies": {
+    "chart.js": "^3.9.1",
+    "chartjs-node-canvas": "^4.1.6",
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.19"
+  }
+}

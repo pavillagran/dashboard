@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Precio de Criptomonedas - DashBoard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/styles.css">
+  </head>
+  <body>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button  class="navbar-toggler" type="button" data-mdb-toggle="collapse"  data-mdb-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html">HOME</a>
+             
+          </div>
+        </div>
+      </nav>
+      <br>
+      <h1>Bienvenido!</h1>
+      <article>En esta web podrás ver en gráficos el  precio de la criptomoneda ETHEREUM.</section>
+      
+      <div id="container"></div>
+      <table>
+        <thead>
+          <tr>
+            <td> <button id="eth" onclick="cambiarCoin()" value="precio">PRECIO</button><br></td>
+            <td> <button id="btc" onclick="cambiarCoin()" value="volumen">VOLUMEN</button><br></td>
+            <td> <button id="btc" onclick="cambiarCoin()" value="maximos">MAXÍMOS</button><br></td>
+          </tr>
+        </thead>
+        </table>
+     <br>
+     
+     <!--<script>function cambiarCoin(x) {console.log(x.value)}</script> -->
+
+     <canvas id="bar-chart" width="400" height="450"></canvas>
+      
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <script type="module" src="main.js"></script>
+       <script src="./grafico.js"></script>
+     
+
+    </body>
+
+    <footer class="bg-light text-center">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Registrate para recibir noticias</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+                  <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form5Example27" class="form-control" />
+                  <label class="form-label" for="form5Example27">Correo</label>
+                </div>
+              </div>
+              <!--Grid column-->
+                  <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary mb-4" style="background-color: #003666">Suscríbete  </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+      </div>
+      <!-- Grid container -->
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #003666;">© 2022 Copyright:
+        <a class="text-white" href="https://orionx.com/">orionx.com</a>
+      </div>
+       </footer>
+</html>
