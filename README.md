@@ -10,10 +10,9 @@ https://nomics.com/docs/#operation/getCurrenciesTicker
 
 
 Dependencias de paquetes requeridos:
-    "dependencies": {
-    "chartjs": "^0.3.24",
-    "node-fetch": "^3.2.10",
-    "nodemon": "^2.0.19"
+    chartjs: "^0.3.24",
+    node-fetch: "^3.2.10",
+    nodemon: "^2.0.19"
 
 
 INSTALAR USANDO:

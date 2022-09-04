@@ -4,6 +4,7 @@
 
 
 
+
 //async function chart (){             // con async
 new Chart(document.getElementById("bar-chart"), {
     type: 'bar',
